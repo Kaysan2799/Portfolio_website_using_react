@@ -18,7 +18,6 @@ function App() {
     <Router>
       <Routes>
         <React.Fragment>
-          <Route exact path="/" element={<Login />} />
           <Route exact path="/Home" element={<><Navbar/><Home/><Footer/></>} />
           <Route exact path="/projects" element={<><Navbar/><Projects /><Footer/></>} />
           <Route exact path="/about" element={<><Navbar/><About /><Footer/></>} />
